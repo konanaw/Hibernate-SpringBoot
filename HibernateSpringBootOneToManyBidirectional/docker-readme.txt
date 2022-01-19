@@ -19,5 +19,5 @@ for the MySQL root user and tag is the tag specifying the MySQL version you want
    jdbc:mysql://localhost:3306/bookstoredb
 
    example:
-   select a.*, b.* from author a join book b on a.id = b.author_id where a.id = 1;
+   SELECT a.*, b.* FROM author a JOIN book b ON a.id = b.author_id WHERE a.id = 1;
 
