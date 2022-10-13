@@ -17,3 +17,13 @@ TABLESPACE pg_default;
 
 ALTER TABLE book
     OWNER to postgres;
+
+CREATE SEQUENCE bookstore.book_generator_seq
+  INCREMENT 1
+  MINVALUE 1
+  MAXVALUE 9223372036854775807
+  START 1
+  CACHE 1;
+
+ALTER TABLE bookstore.book_generator_seq
+  OWNER TO postgres;
