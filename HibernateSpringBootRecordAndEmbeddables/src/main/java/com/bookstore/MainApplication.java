@@ -27,7 +27,11 @@ public class MainApplication {
 
             List<AuthorDto> authors = bookstoreService.fetchByGenre();
 
-            System.out.println(authors);           
+            System.out.println(authors);
+
+            authors.stream()
+                    .map(authorDto -> authorDto.contact().twitter())
+                    .forEach(System.out::println);
         };
     }
 }
