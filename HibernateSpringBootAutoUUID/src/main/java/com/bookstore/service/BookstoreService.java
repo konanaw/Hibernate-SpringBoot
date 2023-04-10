@@ -4,6 +4,8 @@ import com.bookstore.entity.Author;
 import com.bookstore.repository.AuthorRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class BookstoreService {
 
@@ -20,5 +22,9 @@ public class BookstoreService {
         author.setAge(34);
 
         authorRepository.save(author);
+    }
+
+    public List<Author> findAll() {
+        return authorRepository.findAll();
     }
 }

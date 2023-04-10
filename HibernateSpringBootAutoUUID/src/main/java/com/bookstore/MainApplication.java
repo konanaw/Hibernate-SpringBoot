@@ -23,6 +23,8 @@ public class MainApplication {
     public ApplicationRunner init() {
         return args -> {
             bookstoreService.insertAuthor();
+
+            System.out.println(bookstoreService.findAll());
         };
     }
 }
