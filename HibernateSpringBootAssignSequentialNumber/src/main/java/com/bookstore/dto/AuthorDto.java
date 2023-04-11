@@ -2,9 +2,9 @@ package com.bookstore.dto;
 
 public interface AuthorDto {
 
-    public String getName();
+    String getName();
 
-    public int getAge();
+    int getAge();
 
-    public int getRowNum();
+    int getRowNum();
 }
