@@ -13,4 +13,4 @@ insert into author (age, name, genre, id) values (51, "Xian Ulan", "History", 12
 insert into author (age, name, genre, id) values (34, "Barber John", "History", 13);
 insert into author (age, name, genre, id) values (34, "Ulm Ane", "History", 14);
 insert into author (age, name, genre, id) values (38, "Sacram Alin", "History", 15);
-insert into author (age, name, genre, id) values (38, "Sacram Alin2", "History2", 16);
+insert into author (age, name, genre, id) values (38, "Sacram Alin3", "History3", 16);
